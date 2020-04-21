@@ -1,0 +1,5 @@
+Make the executables with `make all`
+
+usage: 
+./hair2obj path/to/strand.data /output/name.obj
+./hair2gmsh path/to/strand.data /output/name.msh
