@@ -1,5 +1,25 @@
-Make the executables with `make all`
+Usage
+-----
 
-usage: 
-./hair2obj path/to/strand.data /output/name.obj
-./hair2gmsh path/to/strand.data /output/name.msh
+Make the executables with `make all` and run using:
+
+./hair2gmsh path/to/strand.data output/name.msh
+./hair2obj path/to/strand.data output/name.obj
+
+Dependencies
+------------
+
+Hair.cc and Hair.h are copyright Szymon Rusinkiewicz retrieved from:
+
+http://www-scf.usc.edu/~liwenhu/SHM/
+
+These files depend on Szymon Rusinkiewicz's trimesh2 library, vendored from
+Jeroen Baert's fork here:
+
+https://github.com/Forceflow/trimesh2
+
+License
+-------
+
+All software in this repo is licensed GPLv2.
+trimesh2 is also GPLv2.
